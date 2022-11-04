@@ -1,0 +1,176 @@
+body{
+    color: white;
+    font-family: monospace;
+}
+.Page1{
+    background-color: #282c34 ;
+    height: 950px;
+    /*Text Area Color (#eee)
+        color: #11ABB0; (text)
+    #F06000 (for header text color)*/
+}
+.centred{
+    position: relative;
+    top: 200px;
+    zoom: 1.5; 
+}
+.heading{
+    position: relative;
+    height: 50px;
+    text-align: center;
+    font-family: "Reem Kufi",sans-serif;
+}
+.sub_heading{
+    position: relative;
+    height: 40px;
+    text-align: center;
+}
+.icons{
+    position: relative;
+    height: 75px;
+    text-align: center;
+    zoom: 1.2; 
+    letter-spacing: 3px;
+}
+.btn{
+    background-color: transparent; 
+    border-color: transparent
+}
+.buttons{
+    text-align: center;
+}
+.down{
+    position: relative;
+    text-align: center;
+    top: 500px;
+}
+.Page2{
+    position: relative;
+    height: 400px;
+    background-color:#0d0e11e7;
+}
+.Pic{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 15%;
+    left: 5%;
+    text-align: center;
+}
+.About_Me{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    left: 30%;
+    top: 50px;
+}
+.Contact_Details{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 30%;
+    top: 50%;
+}
+.Download_Button{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 60%;
+    top: 60%;
+}
+Button[id="b1"]{
+    background-color: gray;
+}
+
+
+.Page3{
+    height: 950px;
+    color: black;
+}
+.Work{
+    position: relative;
+    height: 28%;
+}
+.Education{
+    position: relative;
+    height: 28%;
+    border-top: solid lightgray;
+}
+.Skills{
+    position: relative;
+    height: 28%;
+    border-top: solid lightgray;
+}
+.footer{
+    position: relative;
+    height: 16%;
+    text-align: center;
+    background-color: rgb(235, 226, 226);
+}
+.l{
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.r{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    left: 33%;
+}
+h1,h2{
+    font-weight: bold;
+}
+.Page4{
+    height: 400px;
+    color: black;
+}
+.prev{
+    position: relative;
+    width: 20%;
+    top: 40%;
+    text-align: center;
+}
+.profile{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    left: 20%;
+}
+.next{
+    position:relative;
+    width: 20%;
+    top: 40%;
+    left: 80%;
+    text-align: center;
+}
+.Page5{
+    height: 700px;
+    background-color: #282c34;
+}
+.text-fields{
+    position: relative;
+    top: 20%;
+}
+.form-control{
+    position: relative;
+    background-color: #f0f4fc25;
+    width: 40%;
+    left: 30%;
+}
+.form-label{
+    position: relative;
+    left: 20%;
+}
+button[id="submit"]{
+    position: relative;
+    left: 20%;
+    background-color: rgb(27, 163, 163);
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5%;
+}

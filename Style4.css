@@ -1,0 +1,79 @@
+body{
+    background-color: darkgray;
+    font-size: 20px;
+}
+.main{
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 250px;
+    left: 700px;
+}
+.upper{
+    position: relative;
+    height: 130px;
+    width: 400px;
+}
+.left1{
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    color: gray;
+}
+.right1{
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    left: 320px;
+    top: 32px;
+    color: gray;
+}
+
+
+.center{
+    position: relative;
+    height: 140px;
+    width: 400px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+
+
+.lower{
+    position: relative;
+    height: 130px;
+    width: 400px;
+}
+.left2{
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    left: 30px;
+    top: -20px;
+    line-height: 2;
+    color: rgba(24, 21, 21, 0.349);
+}
+.right2{
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    top: 18px;
+    left: 270px;
+    font-size: 70px;
+    color: gray;
+}
+.Condition{
+    position: relative;
+    font-size: 17px; 
+    color: rgba(24, 21, 21, 0.349);
+    top: -15px;
+    letter-spacing: 1px;
+}

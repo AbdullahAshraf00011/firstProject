@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h3>Task1</h3>
+    <p id="1"></p><p id="2"></p><p id="3"></p><p id="4"></p><p id="5"></p><p id="6"></p>
+    <script>
+        let x, y;  
+        x = 5;        
+        y = 6;        
+        document.getElementById("1").innerHTML ="X + Y: " + (x+y);  
+        document.getElementById("2").innerHTML ="X - Y: " + (x-y);
+        document.getElementById("3").innerHTML ="X * Y: " + (x*y); 
+        document.getElementById("4").innerHTML ="X / Y: " + (x/y); 
+        document.getElementById("5").innerHTML ="X == Y: " + (x==y); 
+        document.getElementById("6").innerHTML ="X === Y: " + (x===y); 
+    </script>
+
+
+    <h3>Task2</h3>
+    <p id="task2"></p>
+    <script>
+        const car = {type:"HiRoof", model:"2020", color:"white"};
+        document.getElementById("task2").innerHTML = car.type;-47+6
+    </script>
+
+
+    <h3>Task3</h3>
+    <p id="task3a"></p>
+    <p id="task3b"></p>
+    <script>
+        const arr = [20,51,60,32,95,20,28,35,21,15];
+        document.getElementById("task3a").innerHTML = arr;
+        document.getElementById("task3b").innerHTML = arr.sort();
+    </script>
+
+</body>
+</html>

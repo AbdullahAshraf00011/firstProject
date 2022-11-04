@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    
+  }
+  
+body{
+    background-image: url("Pic2.jpg");
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form { 
+    background-color: rgb(35, 185, 103);
+    margin: auto; 
+    width:250px;
+    font-size:30px;
+    text-align:center; 
+}
+
+    
